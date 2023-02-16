@@ -1,0 +1,51 @@
+body{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 980px;
+}
+
+.content{
+    margin-top: 2rem;
+    align-items: center;
+}
+.img-banner{
+    width: 100%;
+}
+.img-logofw{
+    width: 194px;
+    height: 146px;
+    position: absolute;
+    justify-content: flex-start;
+    margin-right: 48rem;
+    margin-top: -1.5rem;
+}
+
+.header-navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #1b8e99;
+    height: 45px;
+}
+.infos {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #660000;
+    height: 45px;
+    margin-top: -0.22rem;
+  }
+  
+.navbar-ul {
+    display: flex;
+    list-style: none;
+    margin-right: 1.5rem;
+  }
+.navbar-li {
+    margin-right: 1rem;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
