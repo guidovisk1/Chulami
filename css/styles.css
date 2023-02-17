@@ -50,10 +50,10 @@ body {
 
 .linha {
   position: absolute;
-  bottom: 22px;
+  bottom: 26px;
   width: 55rem;
   border: none;
-  border-top: 1px solid #660000;
+  border-top: 3px solid #660000;
   
 }
 .title img{
