@@ -53,14 +53,20 @@ body {
   bottom: 26px;
   width: 55rem;
   border: none;
-  border-top: 3px solid #660000;
-
+  border-top: 2.5px solid #660000;  
+}
+.linha-2 {
+  position: absolute;
+  bottom: 26px;
+  width: 52rem;
+  border: none;
+  border-top: 2px solid #1b8e99; 
   
 }
 .card-container {
   display: flex;
   margin-top: 0.5rem;
-  
+  margin-bottom: 2.5rem;
 }
 
 .card {
@@ -74,8 +80,15 @@ body {
  
 }
 .card h3{
- 
+ background: #1b8e99;
   
+}
+.linha2 {
+  /* position: absolute; */
+  bottom: 26px;
+  width: 100%;
+  border: none;
+  border-top: 12px solid #444444;  
 }
 .title img{
   margin-left: 45rem;
