@@ -60,7 +60,7 @@ body {
 .card-container {
   display: flex;
   margin-top: 0.5rem;
- 
+  
 }
 
 .card {
@@ -71,6 +71,11 @@ body {
   height: 280px;
   margin-right: 10px; 
   border: 2px solid #1b8e99;
+ 
+}
+.card h3{
+ 
+  
 }
 .title img{
   margin-left: 45rem;
