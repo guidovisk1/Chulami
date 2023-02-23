@@ -164,3 +164,29 @@ nav li:last-child {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
+
+.footer {
+  display: flex;
+  /* justify-content: flex-end; */
+  background-color: #1b8e99;
+  height: 96px;
+}
+.footer-drone{
+  height: 30px;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+.drones-footer{
+  display: flex;
+}
+.drone-3{
+  margin-left: 35rem;
+}
+.drone-2{}
+
+.footer-2 {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #660000;
+  height: 26px;
+}
