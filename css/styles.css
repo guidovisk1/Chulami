@@ -260,3 +260,90 @@ nav li:last-child {
   background-color: #660000;
   margin-top: -3px;
 }
+
+.firstCardGroup {
+  margin-top: 10px;
+  display: flex;
+  padding: 7px;
+}
+
+.card1 {
+  display: inline-block;
+  position: relative;
+  height: 376px;
+  width: 300px;
+  border: 2px solid #1b8e99;
+  margin-right: 15px;
+  flex-direction: column;
+}
+
+.card2 {
+  display: inline-block;
+  position: relative;
+  height: 376px;
+  width: 300px;
+  border: 2px solid #660000;
+  margin-right: 15px;
+}
+
+.titleCard1 {
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
+  background-color: #bfe0e3;
+  border: 1px solid #bfe0e3;
+  color: #1b8e99;
+  margin: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  display: flex;
+  font-size: medium;
+}
+
+.titleCard2 {
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
+  background-color: #eca7a7;
+  border: 1px solid #eca7a7;
+  color: #660000;
+  margin: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  display: flex;
+  font-size: medium;
+}
+
+.imgDroneA {
+  width: 290px;
+  align-items: center;
+  display: flex;
+  margin: 5px;
+}
+
+.descDroneA {
+  margin: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: #1b8e99;
+}
+
+.descDroneB {
+  margin: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: #660000;
+}
+
+
+.priceDroneA {
+  background-color: #1b8e99;
+  height: 100px;
+  width: 100%;
+}
+
+.priceDroneB {
+  background-color: #660000;
+  height: 100px;
+  width: 100%;
+}
