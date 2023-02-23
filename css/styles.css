@@ -80,13 +80,19 @@ body {
 }
 .card h3{
  background: #1b8e99;
-  
+ width: 100%;
 }
+
+.card-2 p{
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
 .card-2 {
   display: flex;
   flex-direction: column;
-  width: 300px;
-  height: 280px;
+  width: 100%;
+  height: 100%;
   margin-right: 10px; 
   border: 2px solid #1b8e99;
 }
@@ -180,13 +186,48 @@ nav li:last-child {
   display: flex;
 }
 .drone-3{
-  margin-left: 35rem;
+  margin-left: 10rem;
 }
-.drone-2{}
+.drone-2{
+  margin-left: 14rem;
+}
+
+.drone-1{
+  margin-left: 1rem;
+}
+
+.prof-img{
+  height: 200px;
+  width: 125px;
+  margin-left: 54rem;
+  margin-top: -25rem;
+}
+
+.footer p{
+  margin-top: 15px;
+  margin-left: 80px;
+}
+
+.prof-text{
+  margin-left: 50rem;
+  margin-top: -22px;
+}
 
 .footer-2 {
   display: flex;
   justify-content: flex-end;
   background-color: #660000;
   height: 26px;
+  margin-top: -2rem;
+}
+
+.footer-2 p{
+  margin-right: 5rem;
+  margin-top: 1px;
+}
+
+.roda-pe{
+  width: 100%;
+  height: 10px;
+  background-color: #660000;
 }
